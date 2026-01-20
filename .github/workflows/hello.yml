@@ -10,6 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Say Hello
-        run: echo "Hello, GitHub Actions!"
+      - name: Print Date
+        run: date
+
+      - name: List Files
+        run: ls -la
+
+      - name: Print Environment
+        run: env
+
 
