@@ -56,7 +56,6 @@
             <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
                 <mainClass>com.example.demo.DemoApplication</mainClass>
-                <backupSource>false</backupSource>
             </configuration>
         </plugin>
     </plugins>
